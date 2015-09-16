@@ -3,10 +3,10 @@
  */
 import javax.sound.midi.*;
 
-public class MIniMiniMusicApp {
+public class MiniMiniMusicApp {
 
     public static void main(String[] args) {
-        MIniMiniMusicApp mini = new MIniMiniMusicApp();
+        MiniMiniMusicApp mini = new MiniMiniMusicApp();
         mini.play();
     }
 
