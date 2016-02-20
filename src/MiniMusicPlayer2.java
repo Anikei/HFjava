@@ -1,6 +1,3 @@
-/**
- * Created by nzhigunenko on 25.12.2015.
- */
 import javax.sound.midi.*;
 
 public class MiniMusicPlayer2 implements ControllerEventListener {
@@ -48,4 +45,7 @@ public class MiniMusicPlayer2 implements ControllerEventListener {
         return event;
     }
 
+    public void controlChange(ShortMessage event) {
+
+    }
 }

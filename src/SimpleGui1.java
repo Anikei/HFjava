@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class SimpleGui1 implements ActionListener {
@@ -11,14 +12,18 @@ public class SimpleGui1 implements ActionListener {
 
     public void go() {
         JFrame frame = new JFrame();
-        button = new JButton("click me");
+        JButton east = new JButton("East");
+        JButton west = new JButton("West");
+        JButton north = new JButton("North");
+        JButton south = new JButton("South");
+        JButton center = new JButton("Center");
 
-        button.addActionListener(this);
+        frame.getContentPane().add(BorderLayout.EAST, east);
+        frame.getContentPane().add(BorderLayout.WEST, west);
+        frame.getContentPane().add(BorderLayout.SOUTH, south);
+        frame.getContentPane().add(BorderLayout.NORTH, north);
+        frame.getContentPane().add(BorderLayout.CENTER, center);
 
-        frame.getContentPane().add(button);
-        //graphics.fillOval(70,70,100,100);
-        //graphics.drawImage(myPic,10,10,this);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
         frame.setVisible(true);
     }

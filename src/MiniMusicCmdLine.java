@@ -1,6 +1,5 @@
 import javax.sound.midi.*;
 
-
 public class MiniMusicCmdLine {
 
     public static void main(String[] args) {

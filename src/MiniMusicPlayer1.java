@@ -1,6 +1,3 @@
-/**
- * Created by nzhigunenko on 25.12.2015.
- */
 import javax.sound.midi.*;
 
 public class MiniMusicPlayer1 {

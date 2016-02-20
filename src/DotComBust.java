@@ -1,6 +1,3 @@
-/**
- * Created by Username on 14.08.15.
- */
 import java.util.*;
 
 public class DotComBust {

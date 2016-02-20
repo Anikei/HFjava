@@ -1,6 +1,3 @@
-/**
- * Created by u43 on 15.09.15.
- */
 import javax.sound.midi.*;
 
 public class MusicTest1 {
