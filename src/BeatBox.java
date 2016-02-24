@@ -1,5 +1,6 @@
 import javax.sound.midi.*;
 import javax.swing.*;
+import javax.swing.Box;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,7 +33,7 @@ public class BeatBox {
         background.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
 
         checkboxList = new ArrayList<JCheckBox>();
-        Box buttonBox = new Box(BoxLayout.Y_AXIS);
+        javax.swing.Box buttonBox = new javax.swing.Box(BoxLayout.Y_AXIS);
 
         JButton start = new JButton("Start");
         start.addActionListener(new MyStartListener());
@@ -50,7 +51,7 @@ public class BeatBox {
         downTempo.addActionListener(new MyDownTempoListener());
         buttonBox.add(downTempo);
 
-        Box nameBox = new Box(BoxLayout.Y_AXIS);
+        javax.swing.Box nameBox = new javax.swing.Box(BoxLayout.Y_AXIS);
         for (int i = 0; i < 16; i++) {
             nameBox.add(new Label(instrumentNames[i]));
         }

@@ -10,9 +10,9 @@ public class MiniMusicPlayer1 {
             Sequence seq = new Sequence(Sequence.PPQ, 4);
             Track track = seq.createTrack();
 
-            for (int i = 5; i < 61; i+= 4) {
-                track.add(makeEvent(144,1,i,10,i));
-                track.add(makeEvent(128,1,i,10,i+2));
+            for (int i = 5; i < 61; i += 4) {
+                track.add(makeEvent(144, 1 ,i, 100, i));
+                track.add(makeEvent(128, 1 ,i, 100, i + 2));
             }
 
             sequencer.setSequence(seq);
