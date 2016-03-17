@@ -1,6 +1,5 @@
-/**
- * Created by Username on 14.08.15.
- */
+package dotcom;
+
 import java.util.*;
 
 public class DotCom {

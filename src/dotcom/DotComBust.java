@@ -1,3 +1,5 @@
+package dotcom;
+
 import java.util.*;
 
 public class DotComBust {

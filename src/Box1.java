@@ -3,7 +3,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-public class Box implements Serializable {
+public class Box1 implements Serializable {
     transient int width;
     private int heigth;
 
@@ -16,7 +16,7 @@ public class Box implements Serializable {
     }
 
     public static void main (String[] args) {
-        Box myBox = new Box();
+        Box1 myBox = new Box1();
         myBox.setWidth(50);
         myBox.setHeigth(20);
 

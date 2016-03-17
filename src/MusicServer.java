@@ -1,9 +1,6 @@
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.io.*;
+import java.net.*;
+import java.util.*;
 
 public class MusicServer {
     ArrayList<ObjectOutputStream> clientOutputStreams;
@@ -13,6 +10,7 @@ public class MusicServer {
     }
 
     public class ClientHandler implements Runnable {
+
         ObjectInputStream in;
         Socket clientSocket;
 

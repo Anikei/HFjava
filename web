@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="0.2 1.0"
+	codebase="http://127.0.0.1/Q:/HFjava"
+	href="MyApp.jnlp">
+	
+<information>
+	<title>my app</title>
+	<vendor>me</vendor>
+	<homepage href="index.html"/>
+	<description>HF Webstart</description>
+	<icon href="kat.gif"/>
+	<offline-allowed/>
+</information>
+
+<resources>
+	<j2se version="1.3+"/>
+	<jar href="MyApp.jar"/>	
+</resources>
+
+<application-desc main-class="HelloWebStart"/>
+
+</jnlp>

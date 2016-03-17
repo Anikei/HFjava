@@ -1,6 +1,5 @@
-/**
- * Created by Username on 14.08.15.
- */
+package dotcom;
+
 import java.io.*;
 import java.util.*;
 
